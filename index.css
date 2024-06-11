@@ -1,0 +1,257 @@
+body {
+    background: #231F20;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+}
+
+.container {
+    display: flex;
+    background: #004689;
+    width: 600px;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.first-board {
+    display: flex;
+}
+
+.fouls {
+    width: 149px;
+    height: 36px;
+    font-family: 'Verdana';
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.fouls-count {
+    width: 100px;
+    height: 70px;
+    background: #000000;
+    font-size: 60px;
+    color: #ED1C24;
+    line-height: 80px;
+    margin: 10px auto; 
+    border-radius: 5px;
+}
+
+.btn-fouls {
+    width: 40px;
+    height: 40px;
+    background: inherit;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-family: inherit;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d_flex {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+    background: #000000;
+}
+
+.time_input {
+    background: inherit;
+    font-family: inherit;
+    width: 70px;
+    height: 70px;
+    font-size: 45px;
+    color: #CEA704;
+    line-height: 115px;
+    margin: 5px 10px;
+    border: none;
+}
+
+.symbol {
+    font-family: inherit;
+    color: white;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background: #004689;
+    font-family: inherit;
+    font-size: 10px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px 5px;
+    padding: 0;
+}
+
+.btn:hover {
+    background: #000000;
+}
+
+.message {
+    font-family: 'Verdana';
+    color: #ED1C24;
+    font-size: 35px;
+}
+
+.second-board {
+    display: flex;
+}
+
+.team {
+    width: 149px;
+    height: 36px;
+    font-family: 'Verdana';
+    color: #FFFFFF;
+    font-size: 40px;
+    margin: 0;
+}
+
+.score {
+    width: 155px;
+    height: 120px;
+    background: #000000;
+    font-size: 80px;
+    color: #ED1C24;
+    line-height: 127px;
+    margin: 30px 0; 
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    width: 155px;
+    height: 45px;
+    justify-content: space-between;
+}
+
+.btn-score {
+    width: 40px;
+    height: 40px;
+    background: inherit;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-family: inherit;
+}
+
+button:hover {
+    background: #000000;
+}
+
+#period {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#period h1 {
+    font-size: 25px;
+}
+
+#period-count {
+    width: 50px;
+    height: 70px;
+    background: #000000;
+    font-size: 60px;
+    color: #CEA704;
+    line-height: 80px;
+    margin: 10px 0 20px 0; 
+    border-radius: 5px;
+}
+
+
+#btn-new-game {
+    width: 100px;
+    height: 40px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-family: inherit;
+    margin-bottom: 10px; 
+}
+
+#btn-new-game:hover {
+    background: inherit;
+}
+
+body {
+    background: #231F20;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+}
+
+.container {
+    display: flex;
+    background: #004689;
+    width: 1400px;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 40px;
+}
+
+.first-board {
+    display: flex;
+}
+
+.timer,
+.timer14 {
+    background-color: #004689;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(60% - 20px);
+    margin-right: 20px;
+    float: left;
+    color: white;
+}
+
+.timer h1,
+.timer14 h1 {
+    font-size: 70px; /* Títulos más pequeños */
+    margin-bottom: 10px;
+}
+
+.timer h2,
+.timer14 h2 {
+    font-size: 80px; /* Segundos más grandes */
+    margin-bottom: 20px;
+}
+
+.timer button,
+.timer14 button {
+    display: inline-block;
+    width: calc(23% - 10px);
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.timer button:hover,
+.timer14 button:hover {
+    background-color: #45a049;
+}
